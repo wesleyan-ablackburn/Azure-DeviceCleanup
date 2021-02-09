@@ -3,7 +3,9 @@
 .VERSION 1.0
 
 .AUTHOR Andrew Blackburn 
-(Some pieces taken from Michael Niehaus' Get-WindowsAutoPilotInfo.ps1 - https://oofhours.com/2020/07/13/automating-the-windows-autopilot-device-hash-import-and-profile-assignment-process/)
+(Some pieces/inspiration taken from:
+-Michael Niehaus' Get-WindowsAutoPilotInfo.ps1 - https://oofhours.com/2020/07/13/automating-the-windows-autopilot-device-hash-import-and-profile-assignment-process/
+-Oliver Kieselbach's Start-AutopilotCleanupCSV.ps1 - https://oliverkieselbach.com/2020/01/21/cleanup-windows-autopilot-registrations/)
 
 .RELEASENOTES
 Version 1.0:  Initial version.

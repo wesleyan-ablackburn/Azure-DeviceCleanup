@@ -82,9 +82,7 @@ if (!($AutopilotDevice)) {
 # Get AAD device details
 $AADDevice = Get-AzureADDevice -Filter "deviceId eq guid'$($AutopilotDevice.azureActiveDirectoryDeviceId)'"
 if (!($AADDevice)) {
-    Write-Host "Device does not exist in AAD yet, exiting... This shouldn't hapen." -ForegroundColor Red
-    Start-Sleep -Seconds 10
-    exit 1
+    Write-Host "Device does not exist in AAD yet... This shouldn't happen." -ForegroundColor Red
 } else {
     Write-Host "Found AAD details for device: $($AADDevice.DeviceId)" -ForegroundColor Blue
 }
